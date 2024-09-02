@@ -1,0 +1,6 @@
+*.png
+target/
+local.log
+.idea
+*/*/logs
+*.iml
