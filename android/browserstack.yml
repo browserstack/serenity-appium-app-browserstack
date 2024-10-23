@@ -22,12 +22,12 @@ buildName: browserstack build
 buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${expression}
 # Set `framework` of your test suite. Example, `testng`, `cucumber`, `cucumber-testng`
 # This property is needed to send test context to BrowserStack (test name, status)
-framework: junit5
+framework: serenity
 
-source: junit5:appium-sample-sdk:v1.1
+source: serenity:appium-sample-sdk:v1.1
 
 app: ./WikipediaSample.apk
-#app: ./LocalSample.apk #For running local tests
+# app: ./LocalSample.apk #For running local tests
 
 # =======================================
 # Platforms (Browsers / Devices to test)
