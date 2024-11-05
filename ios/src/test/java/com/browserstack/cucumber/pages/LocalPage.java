@@ -26,7 +26,6 @@ import org.junit.jupiter.api.BeforeEach;
 import java.util.List;
 import java.time.Duration;
 
-@DefaultUrl("http://bs-local.com:45454/")
 public class LocalPage extends PageObject {
     WebElement testButton;
     WebElement resultElement = null;

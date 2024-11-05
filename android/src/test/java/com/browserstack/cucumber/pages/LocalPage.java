@@ -2,7 +2,6 @@ package com.browserstack.cucumber.pages;
 
 import static org.junit.Assert.assertTrue;
 
-import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -14,7 +13,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.time.Duration;
 
-@DefaultUrl("http://bs-local.com:45454/")
 public class LocalPage extends PageObject {
     WebElement testActionElement;
     WebElement textMessageElement = null;

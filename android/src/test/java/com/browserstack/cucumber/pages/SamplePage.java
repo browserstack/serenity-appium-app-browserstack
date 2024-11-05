@@ -1,7 +1,6 @@
 package com.browserstack.cucumber.pages;
 
 import net.thucydides.core.pages.PageObject;
-import net.thucydides.core.annotations.DefaultUrl;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.AppiumBy;
@@ -11,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.time.Duration;
 
-@DefaultUrl("https://bstackdemo.com/")
 public class SamplePage extends PageObject {
     WebElement searchElement;
     WebElement textElement;
