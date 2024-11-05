@@ -5,8 +5,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import static org.junit.Assert.assertEquals;
 import com.browserstack.cucumber.pages.SamplePage;
-import java.util.List;
-import org.openqa.selenium.WebElement;
 
 public class SampleSteps {
     SamplePage samplePage;
